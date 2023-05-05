@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fundo: #bebfbc ;
+    --letras: #1f2a1e;
+    --barra:#21ba10;
+}
+main{
+    background-color: #000000;
+ max-width: 1300px;
+ padding: 0 120px;
+
+}
+.principal{
+    background-color: var(--fundo);
+    display: flex;
+    margin: auto;
+}

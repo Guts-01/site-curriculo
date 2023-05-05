@@ -1,0 +1,138 @@
+aside{
+    border: 1px solid black;
+    background-color: white;
+    width: 30%;
+    padding-bottom: 10px;
+    display: grid;
+    box-shadow: 5px 0px 10px black;
+    margin-bottom: 20px;
+}
+
+/* foto abaixo */
+
+.foto{
+    background-image: url(../IMAGENS/fotoooo.jfif);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+}
+
+/* seção 1 abaixo*/
+
+.info{
+    border-bottom: 1px dashed black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 30px 150px;
+    padding: 10px;
+    padding-top: 10px;
+}
+.asidetexto{
+    font-size: 18px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: var(--letras);
+   margin: 5px;
+}
+.asideicon{
+  margin-top:  8px;
+}
+
+/* Seção 2 abaixo */
+
+.skills{
+    margin: 5px;
+    text-align: center;
+    border-bottom: 1px dashed black;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+.imgstar{
+    margin-top: 3px;
+}
+.titulo1{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+.ptext{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.fundohtml{
+background-color:#d0d1ce;
+box-shadow: 1px 3px 5px #000000;
+border-radius: 30px;
+border: 1px solid rgb(70, 70, 70);
+margin: 5px;
+}
+.barrahtml{
+ background-color: var(--barra);
+ border-radius: 30px;;
+ width: 90%;
+ text-align: center;
+ color: rgb(255, 255, 255);
+}
+.fundojava{
+    background-color:#d0d1ce;
+    box-shadow: 1px 3px 5px #000000;
+    border-radius: 30px;
+    border: 1px solid rgb(70, 70, 70);
+    margin: 5px;
+}
+.barrajava{
+    background-color: var(--barra);
+    border-radius: 30px;;
+    width: 45%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.fundopython{
+    background-color:#d0d1ce;
+    box-shadow: 1px 3px 5px #000000;
+    border-radius: 30px;
+    border: 1px solid rgb(70, 70, 70);
+    margin: 5px;
+}
+.barrapython{
+    background-color: var(--barra);
+    border-radius: 30px;;
+    width: 20%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.fundocss{
+    background-color:#d0d1ce;
+    box-shadow: 1px 3px 5px #000000;
+    border-radius: 30px;
+    border: 1px solid rgb(70, 70, 70);
+    margin: 5px;
+}
+.barracss{
+    background-color: var(--barra);
+    border-radius: 30px;;
+    width: 80%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/* seçcão 3 abaixo */
+.idioma{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.barraportugues{
+    background-color: var(--barra);
+    border-radius: 30px;;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.barraingles{
+    background-color: var(--barra);
+    border-radius: 30px;;
+    width: 30%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
