@@ -11,8 +11,6 @@
 main{
     background-color: #000000;
  max-width: 1300px;
- padding: 0 120px;
-
 }
 .principal{
     background-color: var(--fundo);
