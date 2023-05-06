@@ -19,3 +19,11 @@ main{
     display: flex;
     margin: auto;
 }
+@media (max-width:800px){
+    .principal{
+        max-width: 600px;
+        display: grid;
+        grid-template-columns: 600px;
+        overflow: hidden;
+    }
+}

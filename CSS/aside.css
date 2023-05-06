@@ -6,6 +6,7 @@ aside{
     display: grid;
     box-shadow: 5px 0px 10px black;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 /* foto abaixo */
