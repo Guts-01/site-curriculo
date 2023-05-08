@@ -5,6 +5,7 @@ aside{
     display: grid;
     box-shadow: 0px 0px 20px black;
     margin-bottom: 20px;
+    border-radius: 50px;
 }
 
 /* foto abaixo */
@@ -15,6 +16,8 @@ aside{
     background-repeat: no-repeat;
     background-size: cover;
     height: 25vh;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 /* seção 1 abaixo*/
