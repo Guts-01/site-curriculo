@@ -1,18 +1,17 @@
 aside{
     border: 1px solid black;
     background-color: white;
-    width: 30%;
+    flex: 30%;
     padding-bottom: 10px;
     display: grid;
     box-shadow: 5px 0px 10px black;
     margin-bottom: 20px;
-    overflow: hidden;
 }
 
 /* foto abaixo */
 
 .foto{
-    background-image: url(../IMAGENS/fotoooo.jfif);
+    background-image: url(../IMAGENS/attachment-eminem-header.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,6 +27,7 @@ aside{
     grid-template-columns: 30px 150px;
     padding: 10px;
     padding-top: 10px;
+    margin: 5px;
 }
 .asidetexto{
     font-size: 18px;

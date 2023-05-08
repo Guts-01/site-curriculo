@@ -1,6 +1,7 @@
 .box{
     border: 1px solid black;
     height: 90vh;
-    width: 70%;
+    flex: 70%;
     margin: 20px;
+
 }

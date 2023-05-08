@@ -10,18 +10,16 @@
 }
 main{
     background-color: #000000;
- max-width: 1300px;
+    
 }
 .principal{
     background-color: var(--fundo);
     display: flex;
     margin: auto;
 }
-@media (max-width:800px){
+@media(max-width:600px){
     .principal{
-        max-width: 600px;
-        display: grid;
-        grid-template-columns: 600px;
+        flex-direction: column;
         overflow: hidden;
     }
 }
