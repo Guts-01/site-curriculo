@@ -5,17 +5,17 @@
 
 :root{
     --fundo: #ffffff ;
-    --letras: #1f2a1e;
+    --letras: #0f4d09;
     --barra:#21ba10;
 }
 main{
-    background-color: #000000;
+    background-color: #ffffff;
     
 }
 .principal{
     background-color: var(--fundo);
     display: flex;
-    margin: auto;
+   margin: 10px;
 }
 @media(max-width:600px){
     .principal{
